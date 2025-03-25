@@ -24,6 +24,10 @@ xatlas
 #kornia
 #facexlib
 
+# C++ mesh processor support
+setuptools>=42
+wheel
+
 # Training
 accelerate
 #pytorch_lightning
@@ -36,5 +40,6 @@ fastapi
 uvicorn
 rembg
 onnxruntime
+psutil
 #gevent
 #geventhttpclient
